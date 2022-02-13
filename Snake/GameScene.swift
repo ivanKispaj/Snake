@@ -50,7 +50,7 @@ class GameScene: SKScene {
         counterClockWiseSecondButton.fillColor = .black
         counterClockWiseSecondButton.strokeColor = .gray
         counterClockWiseSecondButton.lineWidth = 5
-        counterClockWiseSecondButton.name = "counterClockWiseButton"
+        counterClockWiseSecondButton.name = "counterClockWiseSecondButton"
         self.addChild(counterClockWiseSecondButton)
         
         snake = Snake(atPoint: CGPoint(x: view.scene!.frame.midX, y: view.scene!.frame.midY))
